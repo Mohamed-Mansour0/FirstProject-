@@ -1,0 +1,130 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{width: 100%;
+height: 100vh;
+background-image: url(../pics/SneakyShamelessBlackfish-size_restricted.gif);
+background-size: 100%; 
+}
+.home .nav {background-color: rgb(0,0,0,0.7);
+overflow: auto;}
+.home .nav ul{list-style-type: none;}
+.home .nav ul li {
+    display: inline;
+    margin: 20px 10px 0px;
+    float: right;  
+}
+.home .nav ul li a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.4s;
+    
+}
+ 
+.home .nav ul li a:hover{
+    background-color: white;
+    color: black;
+    padding: 10px;
+    padding: 12px;
+    border-radius: 15px;
+    transform: scale(1.2, 1.2);
+}
+
+.home .nav ul li img{
+    width: 40px;
+}
+.home .nav ul .logo{
+    float: left;
+    margin: 10x;
+    }
+    /* end nav bar*/
+.home .caption {
+    background-color:transparent ;
+    text-align: center; 
+}
+.home .caption img{
+    width: 400px;
+    transition: all 1s;
+}
+
+.home .caption img:hover { transform: rotate(360deg) scale(1.3,1) translate(200px , 200px );
+
+}
+.home .caption h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 35px;
+    margin: 15px 0px;
+}
+.home .caption button{
+    width: 15%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px; 
+    background-color: black;
+    color: white; 
+    border-radius: 15px;
+    border: 3px dotted gray; 
+    font-size: 18px;
+}
+.home .layout{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(216, 15, 15, 0.2);
+}
+/*end home secion*/
+.product{
+margin: 100px 0px;
+}
+.productnav h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.productnav .hr{
+width: 40%;
+margin: auto; 
+text-align: center; 
+background-color: pink;
+height: 3px; 
+}
+
+ .productnav hr {
+  margin: auto 10px;
+ }
+
+
+body{background-color: black;
+color: white;
+height: 2800px;
+}
+    
+    .product .item {width: 24%; height: auto; background: black;
+        color: white;
+    display: inline-block; 
+    margin:  20px 5px ;
+    padding-bottom: 10px;
+    border: top 30px solid black
+    right 60px solid black
+    bottom 0px solid black
+    left 0px solid black;
+    border-radius: 30px 10px 80px ; 
+    box-shadow: 10px 5px  black;
+    text-align: center;
+    }
+    .product .item img {width: 100%;
+    border-radius: 20px 10px 70px; 
+    border-bottom: 4px solid grey;
+    }
+    .product .item button { font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border-radius: 12px;
+        width: 40%;
+        background-color: #444;
+        color: white;
+    padding: 10px 0px;
+    font: bold;
+    border: dashed white;
+    
+    }
+
